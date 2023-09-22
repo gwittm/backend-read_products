@@ -1,4 +1,5 @@
 import ProductList from "../components/ProductList";
+import ProductForm from "@/components/ProductForm";
 import styled from "styled-components";
 
 const Heading = styled.h1`
@@ -15,6 +16,8 @@ export default function HomePage() {
         </span>
         Fish Shop
       </Heading>
+      <ProductForm />
+      <hr />
       <ProductList />
     </>
   );
